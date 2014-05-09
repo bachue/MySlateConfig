@@ -85,12 +85,14 @@ S.bnda({
                 width: 8,
                 height: 6
             },
+            '1680x1050': {
+                width: 8,
+                height: 6
+            },
             '1280x1024': {
                 width: 6,
                 height: 6
             }
         }
-    }),
-
-    'tab:cmd': S.op('switch')
+    })
 });
