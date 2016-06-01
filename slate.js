@@ -29,16 +29,6 @@ S.bnda({
         style: 'bar-resize:screenSizeX/2',
         screen: '1'
     }),
-    'up:ctrl;cmd': S.op('push', {
-        direction: 'up',
-        style: 'bar-resize:screenSizeY/2',
-        screen: '1'
-    }),
-    'down:ctrl;cmd': S.op('push', {
-        direction: 'down',
-        style: 'bar-resize:screenSizeY/2',
-        screen: '1'
-    }),
     'right:shift;cmd': S.op('push', {
         direction: 'right',
         style: 'bar-resize:screenSizeX/2',
@@ -47,16 +37,6 @@ S.bnda({
     'left:shift;cmd': S.op('push', {
         direction: 'left',
         style: 'bar-resize:screenSizeX/2',
-        screen: '0'
-    }),
-    'up:shift;cmd': S.op('push', {
-        direction: 'up',
-        style: 'bar-resize:screenSizeY/2',
-        screen: '0'
-    }),
-    'down:shift;cmd': S.op('push', {
-        direction: 'down',
-        style: 'bar-resize:screenSizeY/2',
         screen: '0'
     }),
 
